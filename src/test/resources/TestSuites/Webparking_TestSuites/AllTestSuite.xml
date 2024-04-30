@@ -1,0 +1,26 @@
+<suite name="Web Parking Test" verbose="1" parallel="tests" thread-count="5">
+
+	<test name="Positive-Test-Web Parking">
+		<parameter name="browser" value="chrome"></parameter>
+		<parameter name="author" value="Jignesh" />
+		<classes>
+			<class
+				name="tests.webpark.com.practice.expandtesting.WebParkPageTest" />
+			<methods>
+				<include name="webParkingTesting" />
+			</methods>
+		</classes>
+	</test>
+	<test name="Negative-Test-Web Parking">
+		<parameter name="browser" value="edge"></parameter>
+		<parameter name="author" value="John" />
+		<classes>
+			<class
+				name="tests.webpark.com.practice.expandtesting.WebParkPageTest" />
+			<methods>
+				<include name="bookingDetailsNegativeTesting" />
+				<include name="paymentDetailsNegativeTesting" />
+			</methods>
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,17 @@
+<suite name="NoteAppPositiveTest" verbose="1" parallel="tests" thread-count="2">
+
+	<test name="Positive-Test-ColorWheel">
+		<parameter name="browser" value="chrome"></parameter>
+		<parameter name="author" value="Jignesh" />
+		<classes>
+			<class
+				name="tests.com.practice.expandtesting.ColorWheelPageTest" />
+			<!--			<methods>-->
+			<!--				<include name="addNotePositiveTesting" />-->
+
+
+			<!--			</methods>-->
+		</classes>
+	</test>
+
+</suite>

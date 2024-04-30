@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="10" parallel="tests" name="Failed suite [Web Parking Test]">
+  <test thread-count="10" parallel="tests" name="Negative-Test-Web Parking(failed)">
+    <parameter name="author" value="Jignesh"/>
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="tests.webpark.com.practice.expandtesting.WebParkPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="generateExtentReports"/>
+          <include name="setUp"/>
+          <include name="initialiseExtentReports"/>
+          <include name="testReportUtilities"/>
+          <include name="checkStatus"/>
+          <include name="paymentDetailsNegativeTesting" invocation-numbers="6"/>
+        </methods>
+      </class> <!-- tests.webpark.com.practice.expandtesting.WebParkPageTest -->
+    </classes>
+  </test> <!-- Negative-Test-Web Parking(failed) -->
+</suite> <!-- Failed suite [Web Parking Test] -->

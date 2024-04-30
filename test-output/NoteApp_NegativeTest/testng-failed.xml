@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [NoteApp_NegativeTest]">
+  <test thread-count="2" parallel="tests" name="Negative-Test(failed)">
+    <parameter name="browser" value="msEdge"/>
+    <classes>
+      <class name="tests.app.notes.com.practice.expandtesting.MyNotesPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="addNoteNegativeTesting" invocation-numbers="4 5 6"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.app.notes.com.practice.expandtesting.MyNotesPageTest -->
+    </classes>
+  </test> <!-- Negative-Test(failed) -->
+</suite> <!-- Failed suite [NoteApp_NegativeTest] -->

@@ -1,0 +1,16 @@
+<suite name="NoteAppPositiveTest" verbose="1" parallel="tests" thread-count="2">
+
+	<test name="Positive-Test-NoteApp">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class
+				name="tests.app.notes.com.practice.expandtesting.MyNotesPageTest" />
+			<methods>
+				<include name="addNotePositiveTesting" />
+				<include name="categoryTabsTesting" />
+				<exclude name="searchNotesTesting" />
+			</methods>
+		</classes>
+	</test>
+
+</suite>

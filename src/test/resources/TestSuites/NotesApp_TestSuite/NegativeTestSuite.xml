@@ -1,0 +1,14 @@
+<suite name="NoteAppNegativeTest" verbose="1" parallel="tests" thread-count="2">
+
+	<test name="Negative-Test-NoteApp">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class
+				name="tests.app.notes.com.practice.expandtesting.MyNotesPageTest" />
+			<methods>
+				<include name="addNoteNegativeTesting" />
+			</methods>
+		</classes>
+	</test>
+
+</suite>

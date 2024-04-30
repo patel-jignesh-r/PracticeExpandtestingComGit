@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-26T12:33:05Z" name="NoteAppPositiveTest" finished-at="2024-04-26T12:33:24Z" duration-ms="19190">
+    <groups>
+    </groups>
+    <test started-at="2024-04-26T12:33:05Z" name="Positive-Test-ColorWheel" finished-at="2024-04-26T12:33:24Z" duration-ms="19190">
+      <class name="tests.com.practice.expandtesting.ColorWheelPageTest">
+        <test-method is-config="true" signature="initialiseExtentReports()[pri:0, instance:tests.com.practice.expandtesting.ColorWheelPageTest@22e357dc]" started-at="2024-04-26T12:33:04Z" name="initialiseExtentReports" finished-at="2024-04-26T12:33:05Z" duration-ms="310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialiseExtentReports -->
+        <test-method is-config="true" signature="setUp(java.lang.String, org.testng.ITestContext)[pri:0, instance:tests.com.practice.expandtesting.ColorWheelPageTest@22e357dc]" started-at="2024-04-26T12:33:05Z" name="setUp" finished-at="2024-04-26T12:33:08Z" duration-ms="3437" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@9f46d94]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="testReportUtilities(org.testng.ITestContext)[pri:0, instance:tests.com.practice.expandtesting.ColorWheelPageTest@22e357dc]" started-at="2024-04-26T12:33:08Z" name="testReportUtilities" finished-at="2024-04-26T12:33:08Z" duration-ms="35" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@9f46d94]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testReportUtilities -->
+        <test-method signature="colorWheelTesting()[pri:0, instance:tests.com.practice.expandtesting.ColorWheelPageTest@22e357dc]" started-at="2024-04-26T12:33:08Z" name="colorWheelTesting" finished-at="2024-04-26T12:33:24Z" duration-ms="15687" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- colorWheelTesting -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:tests.com.practice.expandtesting.ColorWheelPageTest@22e357dc]" started-at="2024-04-26T12:33:24Z" name="checkStatus" finished-at="2024-04-26T12:33:24Z" duration-ms="13" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.com.practice.expandtesting.ColorWheelPageTest.colorWheelTesting()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=colorWheelTesting status=SUCCESS method=ColorWheelPageTest.colorWheelTesting()[pri:0, instance:tests.com.practice.expandtesting.ColorWheelPageTest@22e357dc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="generateExtentReports()[pri:0, instance:tests.com.practice.expandtesting.ColorWheelPageTest@22e357dc]" started-at="2024-04-26T12:33:24Z" name="generateExtentReports" finished-at="2024-04-26T12:33:25Z" duration-ms="1554" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateExtentReports -->
+      </class> <!-- tests.com.practice.expandtesting.ColorWheelPageTest -->
+    </test> <!-- Positive-Test-ColorWheel -->
+  </suite> <!-- NoteAppPositiveTest -->
+</testng-results>

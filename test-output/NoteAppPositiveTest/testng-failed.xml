@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [NoteAppPositiveTest]">
+  <test thread-count="2" parallel="tests" name="Positive-Test-ColorWheel(failed)">
+    <parameter name="author" value="Jignesh"/>
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="tests.com.practice.expandtesting.ColorWheelPageTest">
+        <methods>
+          <include name="generateExtentReports"/>
+          <include name="colorWheelTesting"/>
+          <include name="setUp"/>
+          <include name="initialiseExtentReports"/>
+          <include name="testReportUtilities"/>
+          <include name="checkStatus"/>
+        </methods>
+      </class> <!-- tests.com.practice.expandtesting.ColorWheelPageTest -->
+    </classes>
+  </test> <!-- Positive-Test-ColorWheel(failed) -->
+</suite> <!-- Failed suite [NoteAppPositiveTest] -->

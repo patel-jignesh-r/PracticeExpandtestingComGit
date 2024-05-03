@@ -39,7 +39,7 @@ public class TestUtilities extends BaseTest {
 			e.printStackTrace();
 		}
 	}
-
+// screenshot capturing
 	public String captureScreenshot(String fileName) {
 		if (screenshotsSubFolderName == null) {
 			LocalDateTime myDateObj = LocalDateTime.now();
@@ -58,7 +58,7 @@ public class TestUtilities extends BaseTest {
 		log.info("Screenshot saved successfully");
 		return destFile.getAbsolutePath();
 	}
-
+//Extend Report
 	@BeforeSuite
 	public void initialiseExtentReports() {
 		ExtentSparkReporter sparkReporter_all = new ExtentSparkReporter("AllTests.html");
@@ -96,7 +96,7 @@ public class TestUtilities extends BaseTest {
 
 		extentTest.assignCategory(m.getAnnotation(Test.class).groups());
 	}
-
+// pending: need to rearrange/relocate this code as this is used for extend report only.
 	@BeforeMethod
 	public void testReportUtilities(ITestContext context) {
 		Capabilities capabilities = ((RemoteWebDriver) driver).getCapabilities();
